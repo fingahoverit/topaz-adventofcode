@@ -50,3 +50,11 @@ local.properties
 .cache-main
 .scala_dependencies
 .worksheet
+
+# IDEA IntelliJ configurations
+.idea
+build/
+out/
+
+# gradle configurations
+.gradle
