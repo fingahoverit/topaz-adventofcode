@@ -6,13 +6,12 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
 
-import java.io.IOException;
 import java.util.logging.Logger;
 import java.util.stream.Collectors;
 
 class ChronalCalibrationTest {
 
-    private static Logger LOGGER = Logger.getLogger(ChronalCalibrationTest.class.getCanonicalName());
+    private static final Logger LOGGER = Logger.getLogger(ChronalCalibrationTest.class.getCanonicalName());
 
     private static final String INPUT_TEST_01_FILE = "01.txt";
     private static final String INPUT_TEST_02_FILE = "02.txt";
